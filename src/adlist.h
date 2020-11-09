@@ -1,6 +1,6 @@
 /* adlist.c - A generic doubly linked list implementation
 *
-*            Ë«Á´±í
+*           åŒé“¾è¡¨
 */
 
 #ifndef __ADLIST_H__
