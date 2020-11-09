@@ -1,0 +1,1523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deps\hiredis\adapters\ae.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\adapters\glib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\adapters\ivykis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\adapters\libev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\adapters\libevent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\adapters\libuv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\adapters\macosx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\adapters\qt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\examples\example-qt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\async.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\async_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\dict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\fmacros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\hiredis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\hiredis_ssl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\net.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\read.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\sds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\sdsalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\sockcompat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\hiredis\win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\arena_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\arena_inlines_a.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\arena_inlines_b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\arena_stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\arena_structs_a.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\arena_structs_b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\arena_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\assert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\atomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\atomic_c11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\atomic_gcc_atomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\atomic_gcc_sync.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\atomic_msvc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\background_thread_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\background_thread_inlines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\background_thread_structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\base_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\base_inlines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\base_structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\base_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\bin_stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\bit_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\bitmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\cache_bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\ckh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\ctl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\div.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\emitter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\extent_dss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\extent_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\extent_inlines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\extent_mmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\extent_structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\extent_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\hooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_decls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_includes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_inlines_a.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_inlines_b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_inlines_c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\jemalloc_internal_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\large_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\malloc_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\mutex_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\mutex_prof.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\nstime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\pages.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\ph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\prng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\prof_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\prof_inlines_a.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\prof_inlines_b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\prof_structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\prof_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\ql.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\qr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\rb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\rtree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\rtree_tsd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\smoothstep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\spin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\sz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tcache_externs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tcache_inlines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tcache_structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tcache_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\ticker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tsd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tsd_generic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tsd_malloc_thread_cleanup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tsd_tls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tsd_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\tsd_win.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\jemalloc\internal\witness.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\msvc_compat\C99\stdbool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\msvc_compat\C99\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\msvc_compat\strings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\include\msvc_compat\windows_extra.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\msvc\test_threads\test_threads.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\btalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\extent_hooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\mq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\mtx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-alti.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params607.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params1279.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params2281.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params4253.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params11213.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params19937.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params44497.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params86243.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params132049.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-params216091.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\SFMT-sse2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\thd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\jemalloc\test\include\test\timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\linenoise\linenoise.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\etc\lua.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\fpconv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lauxlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\ldebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\ldo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lgc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\llex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\llimits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lmem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lopcodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lparser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lstate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\ltable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\ltm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lua.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\luaconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lualib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lundump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lvm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\lzio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\src\strbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\adlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ae.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asciilogo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\atomicvar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cluster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\connhelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crc16_slottable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crc64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crcspeed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debugmacro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\endianconv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fmacros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geohash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geohash_helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\help.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\intset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\latency.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\listpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\listpack_malloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lolwut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lzf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lzfP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pqsort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quicklist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rax_malloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rdb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\redisassert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\redismodule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdsalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sha1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sha256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\slowlog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solarisfixes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sparkline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testhelp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ziplist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zipmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zmalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deps\hiredis\examples\example.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-ae.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-glib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-ivykis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-libev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-libevent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-libevent-ssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-libuv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-macosx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-qt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\examples\example-ssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\async.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\dict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\hiredis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\net.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\read.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\sds.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\sockcompat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\ssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\hiredis\test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\msvc\test_threads\test_threads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\msvc\test_threads\test_threads_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\arena.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\background_thread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\base.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\bin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\bitmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\ckh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\ctl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\extent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\extent_dss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\extent_mmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\hooks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\jemalloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\jemalloc_cpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\large.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\malloc_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\mutex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\mutex_pool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\nstime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\pages.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\prng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\prof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\rtree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\stats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\sz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\tcache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\ticker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\tsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\witness.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\src\zone.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\aligned_alloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\allocated.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\extent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\mallocx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\MALLOCX_ARENA.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\overflow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\posix_memalign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\rallocx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\sdallocx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\thread_arena.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\thread_tcache_enabled.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\integration\xallocx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\btalloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\btalloc_0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\btalloc_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\math.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\mq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\mtx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\SFMT.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\thd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\src\timer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\stress\microbench.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\a0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\arena_reset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\arena_reset_prof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\atomic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\background_thread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\background_thread_enable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\base.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\bit_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\bitmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\ckh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\decay.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\emitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\extent_quantize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\fork.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\hooks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\junk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\junk_alloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\junk_free.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\mallctl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\malloc_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\math.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\mq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\mtx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\nstime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\pack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\pages.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\ph.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prof_accum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prof_active.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prof_gdump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prof_idump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prof_reset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prof_tctx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\prof_thread_name.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\ql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\qr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\rb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\retained.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\rtree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\SFMT.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\size_classes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\slab.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\smoothstep.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\spin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\stats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\stats_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\ticker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\tsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\witness.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\jemalloc\test\unit\zero.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\linenoise\example.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\linenoise\linenoise.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\etc\all.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\etc\min.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\etc\noparser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\fpconv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lapi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lauxlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lbaselib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\ldblib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\ldebug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\ldo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\ldump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lfunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lgc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\linit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\liolib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\llex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lmathlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lmem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\loadlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lobject.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lopcodes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\loslib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lparser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lstate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lstring.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lstrlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\ltable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\ltablib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\ltm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lua.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lua_bit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lua_cjson.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lua_cmsgpack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lua_struct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\luac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lundump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lvm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\lzio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\src\strbuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\helloacl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\helloblock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\hellocluster.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\hellodict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\hellohook.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\hellotimer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\hellotype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\helloworld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\testmodule.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\acl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\adlist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ae.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ae_epoll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ae_evport.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ae_kqueue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ae_select.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bitops.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blocked.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\childinfo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cluster.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\connection.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crcspeed.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\db.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\defrag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\endianconv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\expire.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geohash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geohash_helper.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gopher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hyperloglog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\latency.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lazyfree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\listpack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\localtime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lolwut.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lolwut5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lolwut6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzf_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzf_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memtest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\multi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\notify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pqsort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pubsub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quicklist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rdb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\redis-benchmark.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\redis-check-aof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\redis-check-rdb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\redis-cli.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\release.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\replication.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sds.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sentinel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\setcpuaffinity.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\setproctitle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\siphash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slowlog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sparkline.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\syncio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_set.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_stream.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_zset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timeout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tls.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tracking.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ziplist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zipmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zmalloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\auth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\blockonkeys.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\commandfilter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\datatype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\fork.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\hooks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\infotest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\propagate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\scan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\modules\testrdb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\hashtable\rehashing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\lru\lfu-simulation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\corrupt_rdb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\tracking_collisions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="deps\lua\doc\contents.html" />
+    <None Include="deps\lua\doc\lua.html" />
+    <None Include="deps\lua\doc\luac.html" />
+    <None Include="deps\lua\doc\manual.html" />
+    <None Include="deps\lua\doc\readme.html" />
+    <None Include="00-RELEASENOTES" />
+    <None Include="BUGS" />
+    <None Include="CONTRIBUTING" />
+    <None Include="COPYING" />
+    <None Include="INSTALL" />
+    <None Include="Makefile" />
+    <None Include="MANIFESTO" />
+    <None Include="README.md" />
+    <None Include="redis.conf" />
+    <None Include="redis-6.0.3.VC.db" />
+    <None Include="runtest" />
+    <None Include="runtest-cluster" />
+    <None Include="runtest-moduleapi" />
+    <None Include="runtest-sentinel" />
+    <None Include="sentinel.conf" />
+    <None Include="TLS.md" />
+  </ItemGroup>
+</Project>
